@@ -23,7 +23,7 @@ CREATE TABLE messages (
   room_id INTEGER,
   /* foreign key name of user id and reference to USERS table's id*/
   FOREIGN KEY (room_id) REFERENCES rooms(id),
-  messages VARCHAR(140) not null
+  message VARCHAR(140) not null
 );
 /* Create other tables and define schemas for them here! */
 
