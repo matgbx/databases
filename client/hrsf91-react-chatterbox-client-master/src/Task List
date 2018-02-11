@@ -1,0 +1,46 @@
+Task List
+
+x dummy data
+
+App Component
+x skeleton for subcomponents
+x basic render
+x basic positioning & layout
+x create state
+x pull in dummy data
+
+x stub out event handlers
+x pass in dummy data, event handlers to subcomponents
+
+ChatListView
+
+  basic UI:
+x   input box & button
+x   div for all chats (container)
+
+x generate each ChatListItem w/dummy data & event handlers
+x looping through messageList
+
+  ChatListItem
+x   generate HTML w/username, message, timestamp, roomname
+x   attach event handler to username click
+
+
+x roomList & roomView
+x   create a room
+x   change between rooms
+
+x set your username
+
+x AJAX call to get messages
+x AJAX call to post messages
+
+- friend functionality
+X   add onClick for username
+-   update username css and/or insert image - star etc
+  
+  test suite build
+  Bunch of CSS
+    add buttons for create room & set username
+      toggle show/hide input & submit buttons
+
